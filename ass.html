@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Assinatura</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h2>Fofocalizando com a Rebeca</h2>
+    </div>
+
+    <div class="menu">
+        <nav>
+            <a href="ass.html">Assine Aqui</a>
+        </nav>
+    </div>
+</header>
+    
+	<center><form class="card1">
+		<h2>Assine já</h2>
+		<div class="bar"></div>
+
+		<label for="nome">Nome</label>
+		<input type="text" placeholder="Nome" id="nome" required>
+		
+		<label for="email">Email</label>
+		<input type="email" placeholder="Email" required>
+
+		<label for="number">Telefone</label>
+		<input type="number" placeholder="Telefone" required>
+
+		<button>Assinar</button>
+	</form></center>
+
+    <style>
+        body{
+            background: #FFC0CB;
+        }
+        
+header {
+    background-color: #C71585;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2vw;
+}
+
+.menu nav, nav a{
+    list-style: none;
+    display: flex;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+
+}
+& nav a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+}
+
+
+.card1 {
+	display: flex;
+	flex-direction: column;
+	background: #FFF;
+	width: 80vw;
+	max-width: 450px;
+	padding: 30px;
+	border-radius: 10px;
+    margin-top: 10%;
+    
+}
+
+.card1 h2 {
+	margin-bottom: 5px;
+}
+
+.card1 .bar {
+	width: 40px;
+	height: 2px;
+	background: #C71585;
+}
+
+.card1 label {
+	margin: 10px 0;
+}
+
+.card1 input {
+	padding: 10px;
+	border: none;
+	border: 1px solid #C71585;
+	border-radius: 10px;
+}
+
+.card1 button {
+	margin: 30px 0 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	background: #C71585;
+	color: #000000;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+    </style>
+</body>
+</html>
